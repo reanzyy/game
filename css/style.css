@@ -1,0 +1,91 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: #b3d5e9;
+}
+
+.v-100 {
+  width: 100%;
+  height: 100vh;
+}
+
+.btn-blue {
+  background-color: #90c5e2;
+  transition: all 0.3s;
+}
+
+.btn-blue:hover {
+  background-color: #90c5e2;
+}
+
+.pop {
+  font-family: "poppins", sans-serif;
+}
+
+.popb {
+  font-family: "poppins", sans-serif;
+  font-weight: 600;
+}
+
+.main {
+  height: 100vh;
+}
+
+.square {
+  background: #e8f6f4;
+  height: 70vh;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.up {
+  height: 50vh;
+  align-items: center;
+}
+
+.down {
+  height: 35vh;
+  align-items: center;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+@media (max-width: 1200px) {
+  .numbers {
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+  }
+}
+
+.number {
+  padding: 2vw;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.buttons {
+  padding: 10px;
+}
+
+.bg-number {
+  background: #90c5e2;
+}
+
+.bi-instagram {
+  font-size: 25px;
+}
